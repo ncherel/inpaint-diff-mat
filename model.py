@@ -4,8 +4,6 @@ from torch.nn.functional import interpolate, max_pool2d, unfold, conv2d
 
 import math
 
-from psal import PSAttentionMasked
-
 class TimeEmbedding(nn.Module):
     def __init__(self, dim):
         super().__init__()
